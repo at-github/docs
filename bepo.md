@@ -4,7 +4,7 @@ Install/configure bepo layout
 On Linux
 --------
 * Load bepo layout in session
-    `loadkeys fr-bepo\n\n`
+    `loadkeys fr-bepo`
 
 * Make it permanently, edit file `/etc/vconsole.conf` and put
     `KEYMAP=fr-bepo`
