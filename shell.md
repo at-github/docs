@@ -2,10 +2,10 @@
 
 ## History
 
-`history` Historique des commandes  
-`history -c` Vide l'historique  
-`!!` Lance la dernière commande, en faisant en interne un replace string  
-`!n` Lance la commande "n"
+Historique des commandes `history`  
+Vide l'historique `history -c`  
+Lance la dernière commande, en faisant en interne un replace string `!!`  
+Lance la commande "n" `!n`
 
 ## Arguments
 `!*` Tous les arguments  
