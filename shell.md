@@ -45,10 +45,10 @@ Supprime le caractère derrière le curseur `Ctrl + h`
 Échange la lettre sous le curseur avec le précédent `Ctrl + t`
 
 ## ack
-`ack --php pattern` Recherche dans les fichiers _php_  
-`ack -w pattern` Recherche le mot _pattern_  
-`ack 'pattern(.*)' --output '$1' -h` Recherche avec expression rationnelle,  
-affiche le groupe capturé et sans le nom de fichier.
+Recherche dans les fichiers _php_ `ack --php pattern`  
+Recherche le mot _pattern_ `ack -w pattern`  
+Recherche avec expression rationnelle,  
+affiche le groupe capturé et sans le nom de fichier `ack 'pattern(.*)' --output '$1' -h` 
 
 ## ag
 …
