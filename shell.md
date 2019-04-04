@@ -54,20 +54,20 @@ affiche le groupe capturé et sans le nom de fichier `ack 'pattern(.*)' --output
 …
 
 ## awk
-`ls -l | awk '{print $2}'` Affiche la deuxième colonne du flux entrant
+Affiche la deuxième colonne du flux entrant `ls -l | awk '{print $2}'` 
 
 ## sed
 ### Substitute
-`sed "s/ /_/g fichier.md"` Remplace les espaces par `_` et affiche le résultat  
-`sed -i "s/ /_/g fichier.md"` Remplace les espaces par `_` dans le fichier
+Remplace les espaces par `_` et affiche le résultat `sed "s/ /_/g fichier.md"`  
+Remplace les espaces par `_` dans le fichier `sed -i "s/ /_/g fichier.md"`
 
 Exemple avec pour voir le `$PATH` en multi-lignes
 `echo $PATH | sed "s/:/\n/g"`
 
 ## tree
-`tree -I vendor` Ignore le dossier vendor
+Ignore le dossier vendor `tree -I vendor`
 
 ## Autre
-`curl http://example.com/scripts/do.sh | bash` Execute le script que l'on télécharge.  
-`echo '{"foo": "b"}' | python - m json.tool` Parser du json en ligne de commande avec python  
-`chmod g+w,o-w rapport.txt chmod u=rwx,g=r,o=- rapport.txt` Attribuer des droits de manière sympathique
+Execute le script que l'on télécharge `curl http://example.com/scripts/do.sh | bash`  
+Parser du json en ligne de commande avec python `echo '{"foo": "b"}' | python - m json.tool`  
+Attribuer des droits de manière sympathique `chmod g+w,o-w rapport.txt chmod u=rwx,g=r,o=- rapport.txt`
