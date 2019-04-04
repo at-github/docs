@@ -8,17 +8,18 @@ Lance la dernière commande, en faisant en interne un replace string `!!`
 Lance la commande "n" `!n`
 
 ## Arguments
-`!*` Tous les arguments  
-`!:n` Argument n de la commande  
-`!?string` Recherche la commande contenant la chaine de caractères _string_ et l'exécute  
-`!cmd` Relance la dernière commande _cmd_  
-`!5$` Dernier argument de la 5ème commande `!5^` Premier argument de la 5ème commande  
-`echo !cat:*` Affiche tout les arguments de la dernière commande  
-`!!:t` Prend le dernier morceau d'un _path_, _filename_  
-`!!:h` Prend tout sauf la dernière partie d'un _path_, _dirname_  
-`!!:q` Mets entre apostrophes les arguments  
-`!!:x` Divise sur les espaces et les sauts de lignes et ajoute des apostrophes  
-`!!:p` Affiche la commande
+Tous les arguments `!*`  
+Argument n de la commande `!:n`  
+Recherche la commande contenant la chaine de caractères _string_ et l'exécute `!?string`  
+Relance la dernière commande _cmd_ `!cmd`  
+Dernier argument de la 5ème commande `!5$`  
+Premier argument de la 5ème commande `!5^`  
+Affiche tout les arguments de la dernière commande `echo !cat:*`  
+Prend le dernier morceau d'un _path_, _filename_ `!!:t`  
+Prend tout sauf la dernière partie d'un _path_, _dirname_ `!!:h`  
+Mets entre apostrophes les arguments `!!:q`  
+Divise sur les espaces et les sauts de lignes et ajoute des apostrophes `!!:x`  
+Affiche la commande `!!:p`
 
 ## Substitute
 `!!:s/search/replace` Remplace le premier terme trouvé  
