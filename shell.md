@@ -26,23 +26,23 @@ Remplace le premier terme trouvé `!!:s/search/replace`
 Remplace tout les termes trouvés `!!:gs/search/replace`
 
 ## Console
-`Ctrl + a` Ramène le curseur au début de la commande  
-`Ctrl + e` Ramène le curseur à la fin de la commande  
-`Ctrl + u` Supprime tout ce qui se trouve à gauche du curseur  
-`Ctrl + k` Supprime tout ce qui se trouve à droite du curseur  
-`Ctrl + w` Supprime le premier mot situé à gauche du curseur  
-`Ctrl + y` Restaure ce qui a été supprimé avec les commandes au-dessus  
-`Alt + b` Déplacement un mot en arrière  
-`Alt + f` Déplacement un mot en avant  
-`Alt + d` Suppression du mot à partir du curseur  
-`Alt + c` Capitalise le mot et se rend à la fin de celui-ci  
-`Alt + u` Haut de casse du mot  
-`Alt + l` Bas de casse du mot  
-`Ctrl + f` Déplacement d'une lettre en avant  
-`Ctrl + b` Déplacement d'une lettre en arrière  
-`Ctrl + d` Supprime le caractère sous le curseur  
-`Ctrl + h` Supprime le caractère derrière le curseur  
-`Ctrl + t` Échange la lettre sous le curseur avec le précédent
+Ramène le curseur au début de la commande `Ctrl + a`  
+Ramène le curseur à la fin de la commande `Ctrl + e`  
+Supprime tout ce qui se trouve à gauche du curseur `Ctrl + u`  
+Supprime tout ce qui se trouve à droite du curseur `Ctrl + k`  
+Supprime le premier mot situé à gauche du curseur `Ctrl + w`  
+Restaure ce qui a été supprimé avec les commandes au-dessus `Ctrl + y`  
+Déplacement un mot en arrière `Alt + b`  
+Déplacement un mot en avant `Alt + f`  
+Suppression du mot à partir du curseur `Alt + d`  
+Capitalise le mot et se rend à la fin de celui-ci `Alt + c`  
+Haut de casse du mot `Alt + u`  
+Bas de casse du mot `Alt + l`  
+Déplacement d'une lettre en avant `Ctrl + f`  
+Déplacement d'une lettre en arrière `Ctrl + b`  
+Supprime le caractère sous le curseur `Ctrl + d`  
+Supprime le caractère derrière le curseur `Ctrl + h`  
+Échange la lettre sous le curseur avec le précédent `Ctrl + t`
 
 ## ack
 `ack --php pattern` Recherche dans les fichiers _php_  
