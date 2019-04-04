@@ -60,6 +60,9 @@ affiche le groupe capturé et sans le nom de fichier.
 `sed "s/ /_/g fichier.md"` Remplace les espaces par `_` et affiche le résultat  
 `sed -i "s/ /_/g fichier.md"` Remplace les espaces par `_` dans le fichier
 
+Exemple avec pour voir le `$PATH` en multi-lignes
+`echo $PATH | sed "s/:/\n/g"`
+
 ## tree
 `tree -I vendor` Ignore le dossier vendor
 
