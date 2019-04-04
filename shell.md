@@ -22,8 +22,8 @@ Divise sur les espaces et les sauts de lignes et ajoute des apostrophes `!!:x`
 Affiche la commande `!!:p`
 
 ## Substitute
-`!!:s/search/replace` Remplace le premier terme trouvé  
-`!!:gs/search/replace` Remplace tout les termes trouvés
+Remplace le premier terme trouvé `!!:s/search/replace`  
+Remplace tout les termes trouvés `!!:gs/search/replace`
 
 ## Console
 `Ctrl + a` Ramène le curseur au début de la commande  
