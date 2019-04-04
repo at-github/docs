@@ -2,6 +2,14 @@
 
 ## Summary
 - [History](#History)
+- [Arguments](#Arguments)
+- [Substitute](#Substitute)
+- [Console](#Console)
+- [ack](#ack)
+- [awk](#awk)
+- [sed](#sed)
+- [tree](#tree)
+- [Autre](#Autre)
 
 ## History
 
