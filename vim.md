@@ -1,4 +1,29 @@
 # Vim
+
+## Summary
+- [Normal mode](#normal-mode)
+- [Insert mode](#insert-mode)
+- [Visual select mode](#visual-select-mode)
+- [Command line](#command-line)
+- [Manage multiple files](#manage-multiple-files)
+- [File directory](#file-directory)
+- [Navigation](#navigation)
+- [Mark](#mark)
+- [Navigate in file](#navigate-in-file)
+- [Register](#register)
+- [Macros](#macros)
+- [Search](#search)
+- [Substitution](#substitution)
+- [Flags](#flags)
+- [Global command](#global-command)
+- [Ctags](#ctags)
+- [Search project wide](#search-project-wide)
+- [Autocompletion](#autocompletion)
+- [Spell check](#spell-check)
+- [Fugitive](#fugitive)
+- [Vim gitgutter](#vim-gitgutter)
+- [Autre](#autre)
+
 ## Normal mode
 `C` Supprime de la position de la ligne jusqu'à la fin et bascule en insertion
 
@@ -483,7 +508,7 @@ plutot qu'une version dans l'index de git, faire:
 :Gedit HEAD:% Voir le fichier courant à une certaine révision  
 Pratique dans un buffer vertical 
 
-## vim-gitgutter
+## Vim gitgutter
 `<leader>hp` Prévisualisation du bloc
 
 `<leader>hs` Ajoute le bloc dans l'index
