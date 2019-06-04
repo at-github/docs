@@ -16,11 +16,11 @@
 Historique des commandes `history`  
 Vide l'historique `history -c`  
 Lance la dernière commande, en faisant en interne un replace string `!!`  
-Lance la commande "n" `!n`
+Lance la commande _n_ `!n`
 
 ## Arguments
 Tous les arguments `!*`  
-Argument n de la commande `!:n`  
+Argument _n_ de la commande `!:n`  
 Recherche la commande contenant la chaine de caractères _string_ et l'exécute `!?string`  
 Relance la dernière commande _cmd_ `!cmd`  
 Dernier argument de la 5ème commande `!5$`  
