@@ -516,4 +516,4 @@ Pratique dans un buffer vertical
 `<leader>hr` Restaure le bloc
 
 ## Autre
-`:!pythom -m json.tool` Ré-indente le json sélectionné
+`:!python -m json.tool` Ré-indente le json sélectionné
