@@ -12,7 +12,10 @@
 `GRANT ALL ON databasename.* TO 'username'@'localhost';`
 
 ### Delete user
-DROP USER 'username';
+`DROP USER 'username';`
+
+## Export database
+`mysqldump -u username -p databasename > export.sql`
 
 ## Restore database
 `mysql -u username -p databasename < filename.sql`
