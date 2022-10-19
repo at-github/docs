@@ -18,6 +18,7 @@ See list of jails
 `fail2ban-client status`
 Control a specific jail (sshd)
 `fail2ban-client [start|stop|status] sshd`
+`Currently failed` is the number of failed login but not yet ban
 
 Ban manually an ip
 `fail2ban-client set [nom du jail] banip [IP à bannir]`
