@@ -1,5 +1,6 @@
 # docs
 
+* [mail](./mail)
 * [bepo.md](./bepo.md)
 * [docker.md](./docker.md)
 * [fail2ban.md](./fail2ban.md)
