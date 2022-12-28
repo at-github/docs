@@ -14,6 +14,7 @@ Apply the group changes to the current terminal session
 
 - `docker ps -a` to list all container running or not
 - `docker rm <container_id>` to … remove it
+- `docker rm $(docker ps --filter status=exited -q)` remove all exited containers
 
 ## Just run an ubuntu with zsh to test my configuration
 
@@ -28,5 +29,6 @@ RUN apt install -y git zsh
 ### Build custom image
 `docker build -t author/project:tag <path folder with Dockerfile>`
 
-`docker run -it --entrypoint zsh <container:default_tag_latest>`
+`docker run -it <container:default_tag_latest> zsh`
+
 `echo $0` to check current shell
