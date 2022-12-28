@@ -18,7 +18,7 @@ Apply the group changes to the current terminal session
 ## Just run an ubuntu with zsh to test my configuration
 
 ### Create custom image
-```docker
+```dockerfile
 # Dockerfile
 FROM ubuntu:22.10
 RUN apt update
