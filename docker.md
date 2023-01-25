@@ -1,5 +1,13 @@
 # Docker
 
+## Some clarifications
+
+| Term        | Explaination       |
+| ----------- | ------------------ |
+| Image       | Describe stack     |
+| Volume      | Data space storage |
+| Container   | Running stack      |
+
 ## Add user to group docker
 
 To prevent some *permission denied* message
