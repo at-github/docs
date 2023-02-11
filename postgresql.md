@@ -6,14 +6,14 @@ sudo su postgres
 psql
 ```
 
-```postgresql
+```sql
 CREATE DATABASE database_name;
 ```
 
-```postgresql
+```sql
 CREATE USER user_name WITH ENCRYPTED PASSWORD 'password';
 ```
 
-```postgresql
+```sql
 GRANT ALL PRIVILEGES ON DATABASE database_name to user_name;
 ```
