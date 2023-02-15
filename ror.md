@@ -16,11 +16,25 @@ bin/rails generate model Article title:string body:text
 > we want to write `Article.new(...)`, `not Articles.new(...)`.
 [source](https://guides.rubyonrails.org/getting_started.html#mvc-and-you-generating-a-model)
 
+### Add field
+
+### Delete field
+
+### Edit field
+
+### Migration
+
+#### Migrate
+```shell
+bin/rails db:migrate
+```
+
 ### Add record
 
 ```ruby
 bin/rails console
 
+#Play with entity
 entity = EntityClass.new(propertyOne: "value")
 entity.save
 entity
@@ -118,10 +132,24 @@ foo.bars << bar
 render json: foo, include: :bar
 ```
 
+```shell
+bin/rails dbconsole
+
+-- Play with database
+SELECT * FROM table;
+```
+
 ## Routes
+
+Show all routes
 
 ```shell
 bin/rails routes
+```
+Filter routes by controller
+
+```shell
+rails routes -c[--controller]=controller_name
 ```
 
 ## General
