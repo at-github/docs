@@ -1,5 +1,31 @@
 # Vue.js
 
+## Glossary
+
+| Terms                 | Description                  |
+| --------------------- | ---------------------------- |
+| Vue.x                 | State management library     |
+| SFC                   | Single File Component …      |
+| String template       | Template provided to the component with option `template?:` as string |
+| DOM template          | When the template is written in a `*.html file` |
+| Directive             | Vue template attributs for magick template action and binding |
+| Provide               | To pass a value in deeply descendency |
+| Inject                | Catch the value passed by the ancestor with *Provide* |
+| Composition API       |	Grâce au tag <script setup> on va pouvoir déclaré l’état, les methodes, le script d’initialisation et le template de manière plus classique au lieu d’exporter un objet. |
+| Options API           |	C’est l’inverse de Composition API TODO à préciser |
+| Custom element        | Custom template html element |
+| Single-File Component |	SFC la logique, le template et le style ensemble, compilé |
+| Directive             |	Attribut prefixé par v-qui est une expression javascript qui a accès à l’état du composant. Certains ? peuvent être écrit en raccourci ex : v-bind:id → :id, v-on:click → @click, : pour les propriétés, @ pour les méthodes v-model permet de raccourcir en une seule directive, la synchronisation de la propriété La propriété en directive peut être dynamique v-bind:[attr] ou :[attr] et attr vaut 'id' par exemple (une string ou null) |
+| Dynamic argument      | Quand l’attribut est précisé dynamiquement ? Voir Directive. Préférable en basse casse, puisque le navigateur changera la casse au final. |
+| Modifier              | On peut ajouter des modifier aux directives, sorte de raccourci de méthode appliquée à la directive, par ex @click.prevent pour lancer event.preventDefault() |
+| Ref                   |	Attribut de référence à l’élément, accessible dans le script via this.$refs this.refs.p, accessible seulement après le montage du composant |
+| Watcher               |	Des écouteurs de propriétés  |
+| Emit                  | Permet à un composant enfant de communiquer avec le parent |
+| Slot                  | Permet à composant parent de communiquer avec l’enfant, sorte de *children* |
+| nextTick              | Fonction de callback pour s’assurer de faire quelque chose une fois que le DOM a été mis à jour |
+| Computed properties   | "They’re similar to methods, except that they should not mutate data.” Ce sont des méthodes, contenu dans l’index computed qui sont dédiées à faire des calculs. On va s’en servir comme de simples propriétés. Donc pas de () on les consulte comme des propriétés. Elles ne doivent pas et ne devrait pas altérer les données. |
+| Watcher               |	Méthode qui surveille une propriété (et porte le même nom) seul ou son utilisation. On pourra lancer une action lors de sa modification |
+
 ## My vue.js style guide notes
 
 [Source](https://vuejs.org/style-guide/)
