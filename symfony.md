@@ -75,6 +75,8 @@ symfony console doctrine:fixtures:load --env=test
 
 `symfony console messenger:stats`
 
+#### Here too, some command to document 👇
+
 - `symfony console make:subscriber TwigEventSubscriber`
 - `symfony composer req doctrine-messenger`
 - `symfony console messenger:consume async -vv`
