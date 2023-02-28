@@ -16,3 +16,4 @@
 * [shell.md](./shell.md)
 * [symfony.md](./symfony.md)
 * [vim.md](./vim.md)
+* [vue.js.md](./vue.js.md)
