@@ -17,3 +17,8 @@ CREATE USER user_name WITH ENCRYPTED PASSWORD 'password';
 ```sql
 GRANT ALL PRIVILEGES ON DATABASE database_name to user_name;
 ```
+
+Use database
+```sql
+\c database_name
+```
