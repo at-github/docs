@@ -6,6 +6,11 @@ sudo su postgres
 psql
 ```
 
+Pivot columns to lines
+```sql
+\x
+```
+
 ```sql
 CREATE DATABASE database_name;
 ```
