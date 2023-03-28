@@ -28,8 +28,48 @@ EntityClass.find(1)
 EntityClass.all
 ```
 
+### Show all records
+
+```shell
+EntityClass.all
+```
+
+### Seed database
+
+```ruby
+#db/seeds.rb
+
+# frozen_string_literal: true
+
+EntityClass.destroy_all
+
+EntityClass.create!(
+  [
+    { name: 'Foo' },
+    { name: 'Bar' }
+  ]
+)
+
+puts "Created #{EntityClass.count} entities"
+```
+```shell
+rails db:seed
+```
+
 ## Routes
 
 ```shell
 bin/rails routes
+```
+
+## General
+
+Show all commands
+```shell
+rails -T
+```
+
+Show all commands with a filter
+```shell
+rails -T test
 ```
