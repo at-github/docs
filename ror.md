@@ -18,7 +18,7 @@ bin/rails generate model Article title:string body:text
 
 ### Add record
 
-```shell
+```ruby
 bin/rails console
 
 entity = EntityClass.new(propertyOne: "value")
