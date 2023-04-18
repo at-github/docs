@@ -3,6 +3,7 @@
 * [mail](./mail.md)
 * [bepo.md](./bepo.md)
 * [docker.md](./docker.md)
+* [elasticsearch.md](./elasticsearch.md)
 * [fail2ban.md](./fail2ban.md)
 * [iptables.md](./iptables.md)
 * [irb.md](./irb.md)
