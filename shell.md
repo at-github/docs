@@ -68,7 +68,7 @@ affiche le groupe capturé et sans le nom de fichier `ack 'pattern(.*)' --output
 Affiche la deuxième colonne du flux entrant `ls -l | awk '{print $2}'` 
 
 ## sed
-### Substitute
+### Sed substitute
 Remplace les espaces par `_` et affiche le résultat `sed "s/ /_/g fichier.md"`  
 Remplace les espaces par `_` dans le fichier `sed -i "s/ /_/g fichier.md"`
 
