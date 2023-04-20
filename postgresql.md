@@ -1,16 +1,23 @@
+# PostgresSQL
+
+## Some tips in bulk
+
+### Use postgres user
 ```shell
 sudo su postgres
 ```
 
+### Launch client
 ```shell
 psql
 ```
 
-Pivot columns to lines
+### Pivot columns to lines
 ```sql
 \x
 ```
 
+### Create
 ```sql
 CREATE DATABASE database_name;
 ```
@@ -23,7 +30,29 @@ CREATE USER user_name WITH ENCRYPTED PASSWORD 'password';
 GRANT ALL PRIVILEGES ON DATABASE database_name to user_name;
 ```
 
-Use database
+### Use database
 ```sql
 \c database_name
+```
+
+### Describe
+
+#### Table
+```sql
+\d table_name
+```
+
+```sql
+\d+ table_name
+```
+
+### List
+
+#### Table
+```sql
+\dt
+```
+
+```sql
+\dt+
 ```
