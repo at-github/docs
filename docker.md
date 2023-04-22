@@ -40,3 +40,26 @@ RUN apt install -y git zsh
 `docker run -it <container:default_tag_latest> zsh`
 
 `echo $0` to check current shell
+
+## How to clean
+
+[Source](https://docs.docker.com/config/pruning/)
+
+The docker system prune command is a shortcut that prunes images, containers, and networks.
+Volumes are not pruned by default, and you must specify the `--volumes` flag for docker system prune to prune volumes.
+
+```shell
+docker system prune
+```
+
+```shell
+docker volume prune
+```
+
+```shell
+docker container prune
+```
+
+```shell
+docker image prune
+```
