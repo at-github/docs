@@ -18,3 +18,4 @@
 * [symfony.md](./symfony.md)
 * [vim.md](./vim.md)
 * [vue.js.md](./vue.js.md)
+* [wp-cli.md](./wp-cli.md)
