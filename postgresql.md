@@ -48,6 +48,11 @@ GRANT ALL PRIVILEGES ON DATABASE database_name to user_name;
 
 ### List
 
+#### Database
+```sql
+\l
+```
+
 #### Table
 ```sql
 \dt
