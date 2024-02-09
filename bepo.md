@@ -19,4 +19,5 @@ Download driver here: http://download.tuxfamily.org/dvorak/windows/bepo.exe
 # Some mapping
 
 `µ` = `altGr + g`
+
 `Ω` = `µ + W`
