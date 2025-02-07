@@ -30,6 +30,10 @@ CREATE USER user_name WITH ENCRYPTED PASSWORD 'password';
 GRANT ALL PRIVILEGES ON DATABASE database_name to user_name;
 ```
 
+```sql
+ALTER USER user_name CREATEDB;
+```
+
 ### Use database
 ```sql
 \c database_name
